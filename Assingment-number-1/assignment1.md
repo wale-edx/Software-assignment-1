@@ -1,26 +1,26 @@
 # Assignment Number 1 
 ## chapter review questions 
 
-- A1 :  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
+1-  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
 
 ---
 
-- A2 :   
+2- :   
 * Abstraction is accomplished by hiding complex details and giving a well defined interface to deal with.
 * Data hiding is accomplished by having the data members as private for the class methods only & no public user can access it .
 * Encapsulation is achieved by wrapping the related data & methods in one package aka. class .
 
 ---
 
-- A3 :  An object is an instance of a class.
+3- :  An object is an instance of a class.
 
 ---
 
-- A4 :   Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
+4- :   Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
 
 ---
 
-- A5 : 
+5-  
 
     class bank {
         private:
