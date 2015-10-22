@@ -1,7 +1,7 @@
 # Assignment Number 1 
 ## chapter review questions 
 
-1 -  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
+1 - : a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
 
 ---
 
@@ -21,6 +21,7 @@
 ---
 
 5 - : 
+```c++
 
     class bank {
         private:
@@ -35,7 +36,7 @@
           void withdraw(double a);
 
     };
-
+```
 ---
 
 6 - :  Class constructors are called when creating a new instance or calling them directly. Class destructor is called when an object dies
@@ -61,6 +62,7 @@ If no default constructor is provided in code, the compiler will generate one au
 ---
 
 9 - : 
+```c++
 
     #ifndef STOCK_H_
     #define STOCK_H_
@@ -88,7 +90,7 @@ If no default constructor is provided in code, the compiler will generate one au
         double totalval() const { return total_val; }
         const string & co_name() const { return company; }
     };
-
+```
 ---
-10 -  : - `this` is a pointer available to class function members which points to the object 
-        - `*this` represents the object itself.
+10 -  : * `this` is a pointer available to class function members which points to the object 
+        * `*this` represents the object itself.
