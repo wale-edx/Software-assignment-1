@@ -1,26 +1,26 @@
 # Assignment Number 1 
 ## chapter review questions 
 
-1-  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
+1 -  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
 
 ---
 
-2- :   
+2 - :   
 * Abstraction is accomplished by hiding complex details and giving a well defined interface to deal with.
 * Data hiding is accomplished by having the data members as private for the class methods only & no public user can access it .
 * Encapsulation is achieved by wrapping the related data & methods in one package aka. class .
 
 ---
 
-3- :  An object is an instance of a class.
+3 - :  An object is an instance of a class.
 
 ---
 
-4- :   Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
+4 - :   Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
 
 ---
 
-5-  
+5 - : 
 
     class bank {
         private:
@@ -38,11 +38,11 @@
 
 ---
 
-- A6 :  Class constructors are called when creating a new instance or calling them directly. Class destructor is called when an object dies
+6 - :  Class constructors are called when creating a new instance or calling them directly. Class destructor is called when an object dies
 
 ---
 
-- A7 : 
+7 - : 
 
     bank::bank(string name, string number , double setbalance ) {
          username = name;
@@ -52,7 +52,7 @@
 
 ---
 
-- A8 : 
+8 - : 
 
 A default constructor is a constructor which can be called with no arguments (either defined with an empty parameter list, or with default arguments provided for every parameter).
 
@@ -60,7 +60,7 @@ If no default constructor is provided in code, the compiler will generate one au
 
 ---
 
-- A9 : 
+9 - : 
 
     #ifndef STOCK_H_
     #define STOCK_H_
@@ -90,5 +90,5 @@ If no default constructor is provided in code, the compiler will generate one au
     };
 
 ---
-- A10 : - `this` is a pointer available to class function members which points to the object 
+10 -  : - `this` is a pointer available to class function members which points to the object 
         - `*this` represents the object itself.
