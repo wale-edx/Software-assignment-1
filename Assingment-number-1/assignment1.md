@@ -94,6 +94,6 @@ If no default constructor is provided in code, the compiler will generate one au
     };
 ```
 ---
-10 -  : * `this` is a pointer available to class function members which points to the object 
-        * `*this` represents the object itself.
+10 -  : - `this` is a pointer available to class function members which points to the object 
+        - `*this` represents the object itself.
 ---
