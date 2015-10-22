@@ -1,4 +1,6 @@
 # Assignment Number 1 
+####Name: Waleed Mohamed Mohamed 
+####Seatnumber: 33855
 ## chapter review questions 
 
 1 - : a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
