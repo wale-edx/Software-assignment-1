@@ -1,26 +1,26 @@
-## Assignment Number 1 
-# chapter review questions 
+# Assignment Number 1 
+## chapter review questions 
 
-*A1 :*  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
+- A1 :  a class is OOP vehicle to represent a real life object in programming as one package containing data & methods which manipulates these data
 
 ---
 
-*A2 :*   
+- A2 :   
 * Abstraction is accomplished by hiding complex details and giving a well defined interface to deal with.
 * Data hiding is accomplished by having the data members as private for the class methods only & no public user can access it .
 * Encapsulation is achieved by wrapping the related data & methods in one package aka. class .
 
 ---
 
-*A3 : * An object is an instance of a class.
+- A3 :  An object is an instance of a class.
 
 ---
 
-*A4 : * Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
+- A4 :   Class member functions are shared among different instances of the class - they are loaded once in the memory - But objects has a unique copy of class data members.
 
 ---
 
-*A5 : *
+- A5 : 
 
     class bank {
         private:
@@ -38,11 +38,11 @@
 
 ---
 
-*A6 : * Class constructors are called when creating a new instance or calling them directly. Class destructor is called when an object dies
+- A6 :  Class constructors are called when creating a new instance or calling them directly. Class destructor is called when an object dies
 
 ---
 
-*A7 : *
+- A7 : 
 
     bank::bank(string name, string number , double setbalance ) {
          username = name;
@@ -52,7 +52,7 @@
 
 ---
 
-*A8 : *
+- A8 : 
 
 A default constructor is a constructor which can be called with no arguments (either defined with an empty parameter list, or with default arguments provided for every parameter).
 
@@ -60,7 +60,7 @@ If no default constructor is provided in code, the compiler will generate one au
 
 ---
 
-*A9 : *
+- A9 : 
 
     #ifndef STOCK_H_
     #define STOCK_H_
@@ -90,5 +90,5 @@ If no default constructor is provided in code, the compiler will generate one au
     };
 
 ---
-*A10 : * `this` is a pointer available to class function members which points to the object 
-       * `*this` represents the object itself.
+- A10 : - `this` is a pointer available to class function members which points to the object 
+        - `*this` represents the object itself.
