@@ -44,12 +44,14 @@
 ---
 
 7 - : 
+```c++
 
     bank::bank(string name, string number , double setbalance ) {
          username = name;
          accountnumber=number;
          balance = setbalance;  
       }
+```
 
 ---
 
